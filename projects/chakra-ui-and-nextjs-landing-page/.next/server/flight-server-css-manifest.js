@@ -1,0 +1,7 @@
+self.__RSC_CSS_MANIFEST={
+  "__entry_css_mods__": {
+    "C:\\Users\\monst\\coder\\projects\\chakra-ui-and-nextjs-landing-page\\app\\signup\\page": [],
+    "C:\\Users\\monst\\coder\\projects\\chakra-ui-and-nextjs-landing-page\\app\\signin\\page": [],
+    "C:\\Users\\monst\\coder\\projects\\chakra-ui-and-nextjs-landing-page\\app\\page": []
+  }
+}
