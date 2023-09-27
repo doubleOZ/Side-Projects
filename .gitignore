@@ -1,1 +1,3 @@
 python_venv/
+/node_modules
+.env*.local
