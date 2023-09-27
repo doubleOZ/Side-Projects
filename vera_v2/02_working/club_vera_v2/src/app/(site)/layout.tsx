@@ -1,4 +1,4 @@
-import NavBar from "@/components/NavBar";
+import Header from "@/components/Header";
 
 export default function RootLayout({
   children,
@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <NavBar />
+      <Header />
       <div>{children}</div>
     </>
   );
