@@ -8,6 +8,7 @@ export const StateContext = ({ children }) => {
   const [cartTotal, setCartTotal] = useState(0);
 
   const addItem = (product, quantity) => {
+    console.log(`product: ${product} and qty: ${quantity}`);
     setCartTotal((total) => total + quantity);
   };
   return (
