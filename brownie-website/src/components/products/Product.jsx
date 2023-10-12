@@ -5,9 +5,10 @@ import React from "react";
 
 const Product = () => {
   const { addItem } = useStateContext();
+  const product = "fudge brownies";
   return (
     <div>
-      <button onClick={() => addItem("fudge brownie", 1)}>
+      <button onClick={() => addItem(`${product}`, 1)}>
         <div>Product</div>
       </button>
     </div>
