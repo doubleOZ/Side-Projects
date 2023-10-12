@@ -1,5 +1,10 @@
-import Image from "next/image";
+import Product from "@/components/products/Product";
 
 export default function Home() {
-  return <div>It's Brownie Time</div>;
+  return (
+    <div>
+      It's Brownie Time
+      <Product />
+    </div>
+  );
 }
