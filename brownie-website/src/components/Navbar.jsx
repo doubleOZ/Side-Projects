@@ -5,7 +5,7 @@ import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {
-  const { cartTotal } = useStateContext();
+  const { cartTotal, toggleCart, isCartOpen } = useStateContext();
 
   return (
     <div className="flex justify-around py-5">
