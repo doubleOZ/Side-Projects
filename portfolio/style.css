@@ -188,8 +188,8 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  /* margin-bottom: 1rem; */
 }
 .section__text__p2 {
   font-size: 1.75rem;
@@ -262,7 +262,47 @@ section {
 
 /* ABOUT */
 
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
 .about-pic {
-  border-radius: 10%;
+  border-radius: 2rem;
   object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
 }
