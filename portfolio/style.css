@@ -342,3 +342,9 @@ article {
 article .icon {
   cursor: default;
 }
+
+/* PROJECTS */
+
+section a:hover {
+  text-decoration: none;
+}
