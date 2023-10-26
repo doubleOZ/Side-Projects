@@ -404,3 +404,14 @@ article .icon {
 .contact-icon {
   size: 2rem;
 }
+
+/* FOOTER */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
